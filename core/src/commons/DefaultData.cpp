@@ -33,7 +33,6 @@ DefaultData::DefaultData(double* data,
            size_t num_cols):
     variable_names(variable_names),
     num_rows(num_rows),
-    num_rows_rounded(0),
     num_cols(num_cols),
     externalData(true),
     index_data(0),

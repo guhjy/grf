@@ -77,7 +77,6 @@ public:
 protected:
   std::vector<std::string> variable_names;
   size_t num_rows;
-  size_t num_rows_rounded;
   size_t num_cols;
 
   bool externalData;

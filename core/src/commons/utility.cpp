@@ -151,7 +151,7 @@ bool equal_doubles(double first, double second, double epsilon) {
 }
 
 Data* load_data(std::string file_name) {
-  Data* data = new DefaultData();
+  DefaultData* data = new DefaultData();
 
   bool rounding_error = data->load_from_file(file_name);
   if (rounding_error) {

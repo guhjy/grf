@@ -29,12 +29,7 @@ public:
 
   virtual double get(size_t row, size_t col) const = 0;
 
-  virtual void reserve_memory() = 0;
   virtual void set(size_t col, size_t row, double value, bool& error) = 0;
-
-  virtual bool load_from_file(std::string filename) = 0;
-  virtual bool load_from_whitespace_file(std::ifstream& input_file, std::string header_line) = 0;
-  virtual bool load_from_other_file(std::ifstream& input_file, std::string header_line, char seperator)  = 0;
 
   virtual void get_all_values(std::vector<double>& all_values, const std::vector<size_t>& samples, size_t var)  = 0;
 
