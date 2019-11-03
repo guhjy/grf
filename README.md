@@ -2,6 +2,7 @@
 ![CRAN Downloads overall](http://cranlogs.r-pkg.org/badges/grand-total/grf)
 
 # grf: generalized random forests
+[Assessing Treatment Effect Variation inObservational Studies:  Results from a Data Challenge](https://obsstudies.org/277-2/)
 
 A pluggable package for forest-based statistical estimation and inference. GRF currently provides non-parametric methods for least-squares regression, quantile regression, and treatment effect estimation (optionally using instrumental variables).
 
